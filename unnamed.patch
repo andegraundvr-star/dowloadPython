@@ -1,0 +1,150 @@
+Index: blok 23/blok 23-1/content
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/blok 23/blok 23-1/content b/blok 23/blok 23-1/content
+new file mode 100644
+--- /dev/null
++++ b/blok 23/blok 23-1/content
+@@ -0,0 +1,29 @@
++Содержимое
++Выберите любую директорию на своём диске и затем напишите программу, выводящую на экран абсолютные пути к файлам и папкам, которые находятся внутри этой директории.
++
++Результат программы на примере директории проекта python_basic:
++
++Содержимое каталога G:\PycharmProjects\python_basic
++
++    G:\PycharmProjects\python_basic\.git
++
++    G:\PycharmProjects\python_basic\.idea
++
++    G:\PycharmProjects\python_basic\Module14
++
++    G:\PycharmProjects\python_basic\Module15
++
++    G:\PycharmProjects\python_basic\Module16
++
++    G:\PycharmProjects\python_basic\Module17
++
++    G:\PycharmProjects\python_basic\Module18
++
++    G:\PycharmProjects\python_basic\Module19
++
++    G:\PycharmProjects\python_basic\Module20
++
++    G:\PycharmProjects\python_basic\Module21
++
++    G:\PycharmProjects\python_basic\Module22
++
+Index: blok 23/blok 23-1/content.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/blok 23/blok 23-1/content.py b/blok 23/blok 23-1/content.py
+new file mode 100644
+--- /dev/null
++++ b/blok 23/blok 23-1/content.py
+@@ -0,0 +1,27 @@
++#Содержимое
++import os
++
++def in_direct(project):
++    print(f"\nСодержимое директории {project}")
++    try:
++        for i in os.listdir(project):
++            path = os.path.join(project, i)
++            print(f"   {path}")
++
++    except FileNotFoundError:
++        print(f"  Ошибка: директория не найдена")
++base_dir = r"C:\Root\RemoteFolders\user0907"
++python_basic = os.path.join(base_dir, 'companyfrontdesc1')#r"C:\Root\RemoteFolders\user0907\companyfrontdesc1"
++print(f"Содержимое каталога {python_basic}")
++dirname = in_direct(python_basic)
++
++print(f"Текущая рабочая директория: {os.getcwd()}")
++print(os.access(python_basic, os.R_OK))
++print(f"Существует: {os.path.exists(python_basic)}")
++print(f"Это директория: {os.path.isdir(python_basic)}")
++print(f"Это файл: {os.path.isfile(python_basic)}")
++print(f"Право на чтение (R_OK): {os.access(python_basic, os.R_OK)}")
++print(f"Право на запись (W_OK): {os.access(python_basic, os.W_OK)}")
++print(f"Право на выполнение (X_OK): {os.access(python_basic, os.X_OK)}")
++false_way = os.path.abspath('companyfrontdesc1')
++print('false_way', false_way)
+Index: blok 23/blok 23-1/disc root.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/blok 23/blok 23-1/disc root.py b/blok 23/blok 23-1/disc root.py
+new file mode 100644
+--- /dev/null
++++ b/blok 23/blok 23-1/disc root.py
+@@ -0,0 +1,11 @@
++#Корень диска
++import os
++import sys
++
++script_dir = os.path.dirname(os.path.abspath(sys.argv[0]))
++python_basic_dev = os.path.join(script_dir)
++
++root_dir = os.path.splitdrive(script_dir)[0]
++
++print(f"Текущая директория скрипта: {script_dir}")
++print(f"Корень директории скрипта: {root_dir}")
+\ No newline at end of file
+Index: blok 23/blok 23-1/system admin.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/blok 23/blok 23-1/system admin.py b/blok 23/blok 23-1/system admin.py
+new file mode 100644
+--- /dev/null
++++ b/blok 23/blok 23-1/system admin.py
+@@ -0,0 +1,11 @@
++#Сисадмин
++import os
++path_way = os.path.abspath('admin.bat')
++real_way = os.path.realpath('admin.bat')
++start = r"C:\Users\user0907\AppData\Local"
++rel_way = os.path.relpath('admin.bat', start)
++
++print(f"\nотносительный путь путь к файлу: {rel_way}")
++print(f"\nабсолютный путь к файлу: {path_way}")
++print(f"\nканонический путь путь к файлу: {real_way}")
++
+diff --git a/blok 23/blok 23-1/disc root b/blok 23/blok 23-1/disc root
+new file mode 100644
+diff --git a/blok 23/blok 23-1/system admin b/blok 23/blok 23-1/system admin
+new file mode 100644
+diff --git a/blok 23/content.py b/blok 23/content.py
+deleted file mode 100644
+diff --git a/blok 23/disc root.py b/blok 23/disc root.py
+deleted file mode 100644
+diff --git a/blok 23/system admin.py b/blok 23/system admin.py
+deleted file mode 100644
+diff --git a/blok 23/content b/blok 23/content
+deleted file mode 100644
+index e69de29bb2d1d6434b8b29ae775ad8c2e48c5391..0000000000000000000000000000000000000000
+GIT binary patch
+literal 0
+Hc$@<O00001
+
+diff --git a/blok 23/system admin b/blok 23/system admin
+deleted file mode 100644
+index e69de29bb2d1d6434b8b29ae775ad8c2e48c5391..0000000000000000000000000000000000000000
+GIT binary patch
+literal 0
+Hc$@<O00001
+
+diff --git a/blok 23/disc root b/blok 23/disc root
+deleted file mode 100644
+index e69de29bb2d1d6434b8b29ae775ad8c2e48c5391..0000000000000000000000000000000000000000
+GIT binary patch
+literal 0
+Hc$@<O00001
+
