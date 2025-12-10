@@ -46,8 +46,9 @@ This repository contains my projects in:
 <br>
 <br>
 
-### 🏆 Codewars Stats
-[![codewars](https://www.codewars.com/users/ABoklogov/badges/micro)](https://www.codewars.com/users/ABoklogov)
+### 🥇 Kaggle Profile
+
+[![Kaggle](https://img.shields.io/badge/Kaggle-Vasya_Restrim-blue?logo=kaggle&logoColor=white&style=for-the-badge)](https://www.kaggle.com/vasyarestrim)
 
 ### 📈 GitHub Stats
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=andegraundvr-star&show_icons=true&theme=radical)
