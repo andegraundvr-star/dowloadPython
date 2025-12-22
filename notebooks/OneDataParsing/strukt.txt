@@ -1,0 +1,16 @@
+C:\Users\user0907\OneDataParsing\
+├── processed_files.json          ← Новый файл (автоматически создастся)
+│   [
+│     "C:\\Users\\user0907\\OneDataParsing\\data\\input\\JsonTest4.json",
+│     "\\\\vra.local\\...\\архив\\file1.json",
+│     ...
+│   ]
+├── logs\
+│   └── etl_20241222_150000.log   ← Логи процесса
+├── data\
+│   ├── input\                    ← Новые файлы появятся здесь
+│   ├── archive\                  ← Обработанные файлы
+│   └── cache\                    ← Временные копии
+└── src\
+    ├── main.py                   ← Ваш обновленный код
+    ├── file_discovery.py         ← С защитой от дублей

@@ -1,0 +1,9 @@
+@echo off
+REM Активация виртуального окружения (если используете)
+REM call C:\Path\To\Your\VirtualEnv\Scripts\activate.bat
+
+REM Запуск основного скрипта
+python -m src.main
+
+REM Если нужно оставить окно открытым для просмотра ошибок, добавьте:
+pause

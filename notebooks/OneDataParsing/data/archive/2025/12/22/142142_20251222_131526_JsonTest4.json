@@ -1,0 +1,5993 @@
+{
+"#type": "jv8:ValueTable",
+"#value": {
+"column": [
+{
+"Name": {
+"#type": "jxs:string",
+"#value": "Номенклатура"
+},
+"ValueType": {
+"Type": [
+"{http://v8.1c.ru/8.1/data/core}Null"
+],
+"TypeSet": [
+"{http://v8.1c.ru/8.1/data/enterprise/current-config}DefinedType.аxТипыСсылок"
+]
+},
+"Title": "Номенклатура",
+"Width": {
+"#type": "jxs:decimal",
+"#value": 25
+}
+},
+{
+"Name": {
+"#type": "jxs:string",
+"#value": "Склад"
+},
+"ValueType": {
+"Type": [
+"{http://v8.1c.ru/8.1/data/core}Null",
+"{http://v8.1c.ru/8.1/data/enterprise/current-config}CatalogRef.Склады"
+]
+},
+"Title": "Склад",
+"Width": {
+"#type": "jxs:decimal",
+"#value": 25
+}
+},
+{
+"Name": {
+"#type": "jxs:string",
+"#value": "ДатаПроизводства"
+},
+"ValueType": {
+"Type": [
+"{http://www.w3.org/2001/XMLSchema}dateTime",
+"{http://v8.1c.ru/8.1/data/core}Null"
+],
+"DateQualifiers": {
+"DateFractions": "Date"
+}
+},
+"Title": "ДатаПроизводства",
+"Width": {
+"#type": "jxs:decimal",
+"#value": 10
+}
+},
+{
+"Name": {
+"#type": "jxs:string",
+"#value": "Качество"
+},
+"ValueType": {
+"Type": [
+"{http://v8.1c.ru/8.1/data/core}Null",
+"{http://v8.1c.ru/8.1/data/enterprise/current-config}CatalogRef.Качество"
+]
+},
+"Title": "Качество",
+"Width": {
+"#type": "jxs:decimal",
+"#value": 25
+}
+},
+{
+"Name": {
+"#type": "jxs:string",
+"#value": "ОСГ"
+},
+"ValueType": {
+"Type": [
+"{http://v8.1c.ru/8.1/data/core}Null",
+"{http://www.w3.org/2001/XMLSchema}decimal"
+],
+"NumberQualifiers": {
+"Digits": 0,
+"FractionDigits": 0,
+"AllowedSign": "Any"
+}
+},
+"Title": "ОСГ",
+"Width": {
+"#type": "jxs:decimal",
+"#value": 32
+}
+},
+{
+"Name": {
+"#type": "jxs:string",
+"#value": "ОжидаемыйПриход"
+},
+"ValueType": {
+"Type": [
+"{http://v8.1c.ru/8.1/data/core}Null",
+"{http://www.w3.org/2001/XMLSchema}decimal"
+],
+"NumberQualifiers": {
+"Digits": 0,
+"FractionDigits": 0,
+"AllowedSign": "Any"
+}
+},
+"Title": "ОжидаемыйПриход",
+"Width": {
+"#type": "jxs:decimal",
+"#value": 32
+}
+},
+{
+"Name": {
+"#type": "jxs:string",
+"#value": "ЗаказНаПроизводство"
+},
+"ValueType": {
+"Type": [
+"{http://v8.1c.ru/8.1/data/enterprise/current-config}DocumentRef.ЗаказНаПроизводство",
+"{http://v8.1c.ru/8.1/data/core}Null"
+]
+},
+"Title": "ЗаказНаПроизводство",
+"Width": {
+"#type": "jxs:decimal",
+"#value": 25
+}
+}
+],
+"row": [
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "5b6f05b5-b6f0-11e6-80d1-00155d007a0a"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "fd7b8918-ea97-11e0-93e9-00155d00034b"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-20T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 102
+},
+{
+"#type": "jxs:decimal",
+"#value": 5000
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "11b111ad-d9de-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "5b6f05b5-b6f0-11e6-80d1-00155d007a0a"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "fd7b8918-ea97-11e0-93e9-00155d00034b"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-23T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 107
+},
+{
+"#type": "jxs:decimal",
+"#value": 4164
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "b9d6843e-dc05-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "5b6f05b5-b6f0-11e6-80d1-00155d007a0a"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "fd7b8918-ea97-11e0-93e9-00155d00034b"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-25T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 110
+},
+{
+"#type": "jxs:decimal",
+"#value": 5000
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "db86a0ec-dc05-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "812f06e4-bc81-11e6-80d1-00155d007a0a"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "b2534ea9-dd52-11dd-b2a5-001517643e50"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-25T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 110
+},
+{
+"#type": "jxs:decimal",
+"#value": 1028.8
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "f1f73d90-dccf-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "7d8b7b24-bd0c-11e6-80d1-00155d007a0a"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "fd7b8918-ea97-11e0-93e9-00155d00034b"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-21T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 103
+},
+{
+"#type": "jxs:decimal",
+"#value": 2000
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "ecd8957a-d9dd-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "7d8b7b24-bd0c-11e6-80d1-00155d007a0a"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "fd7b8918-ea97-11e0-93e9-00155d00034b"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-23T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 107
+},
+{
+"#type": "jxs:decimal",
+"#value": 5600
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "ecd8957a-d9dd-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "1a99c47a-2f15-11e7-80d3-00155d007a0a"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "fd7b8918-ea97-11e0-93e9-00155d00034b"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-22T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 101
+},
+{
+"#type": "jxs:decimal",
+"#value": 2000
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "5f13d2ef-da7e-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "1a99c47a-2f15-11e7-80d3-00155d007a0a"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "fd7b8918-ea97-11e0-93e9-00155d00034b"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-24T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 102
+},
+{
+"#type": "jxs:decimal",
+"#value": 2000
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "5f13d2ef-da7e-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "a9adb80e-5684-11e7-80d3-00155d007a0a"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "b2534ea9-dd52-11dd-b2a5-001517643e50"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-25T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 109
+},
+{
+"#type": "jxs:decimal",
+"#value": 250
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "f1f73d90-dccf-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "3962df01-706b-11e7-80d3-00155d007a0a"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "b2534ea9-dd52-11dd-b2a5-001517643e50"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-22T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 107
+},
+{
+"#type": "jxs:decimal",
+"#value": 105.6
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "08445820-dc1d-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "4642f39a-38dd-11e8-80e3-00155d007a26"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "fd7b8918-ea97-11e0-93e9-00155d00034b"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-21T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 105
+},
+{
+"#type": "jxs:decimal",
+"#value": 1599.84
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "02cee349-db42-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "756cfb7b-38e2-11e8-80e3-00155d007a26"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "fd7b8918-ea97-11e0-93e9-00155d00034b"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-21T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 105
+},
+{
+"#type": "jxs:decimal",
+"#value": 599.04
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "02cee349-db42-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "756cfb7b-38e2-11e8-80e3-00155d007a26"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "fd7b8918-ea97-11e0-93e9-00155d00034b"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-23T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 110
+},
+{
+"#type": "jxs:decimal",
+"#value": 1399.68
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "02cee349-db42-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "c314029b-89bf-11e8-80e4-00155d007a26"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "fd7b8918-ea97-11e0-93e9-00155d00034b"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-21T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 103
+},
+{
+"#type": "jxs:decimal",
+"#value": 496
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "2b1ac6d0-db41-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "de3c62e9-c328-11e8-80ea-00155d007a26"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "b2534ea9-dd52-11dd-b2a5-001517643e50"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-20T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 102
+},
+{
+"#type": "jxs:decimal",
+"#value": 398.88
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "98076033-db4d-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "de3c62e9-c328-11e8-80ea-00155d007a26"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "b2534ea9-dd52-11dd-b2a5-001517643e50"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-21T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 104
+},
+{
+"#type": "jxs:decimal",
+"#value": 1000.8
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "98076033-db4d-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "076f49c7-e80f-11e8-80ec-00155d007a26"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "b2534ea9-dd52-11dd-b2a5-001517643e50"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-23T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 103
+},
+{
+"#type": "jxs:decimal",
+"#value": 1029
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "1de9da38-d9c2-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "f694da42-0b41-11e9-80ec-00155d007a26"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "fd7b8918-ea97-11e0-93e9-00155d00034b"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-21T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 103
+},
+{
+"#type": "jxs:decimal",
+"#value": 3000.6
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "5f13d2ef-da7e-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "c167f50f-252e-11e9-80ee-00155d007a26"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "fd7b8918-ea97-11e0-93e9-00155d00034b"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-20T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 101
+},
+{
+"#type": "jxs:decimal",
+"#value": 1000.8
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "5f13d2ef-da7e-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "2997a459-2530-11e9-80ee-00155d007a26"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "b2534ea9-dd52-11dd-b2a5-001517643e50"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-21T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 103
+},
+{
+"#type": "jxs:decimal",
+"#value": 199.8
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "08445820-dc1d-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "c4b41f64-4fcf-11e9-80f0-00155d007a26"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "b2534ea9-dd52-11dd-b2a5-001517643e50"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-23T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 101
+},
+{
+"#type": "jxs:decimal",
+"#value": 5
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "08445820-dc1d-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "9adb3f21-9d6f-11e9-80f3-00155d007a26"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "fd7b8918-ea97-11e0-93e9-00155d00034b"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-24T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 106
+},
+{
+"#type": "jxs:decimal",
+"#value": 22980
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "36a9adee-dc1a-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "f8b8aaef-d9ed-11e9-80f5-00155d03ae09"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "fd7b8918-ea97-11e0-93e9-00155d00034b"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-23T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 105
+},
+{
+"#type": "jxs:decimal",
+"#value": 3297
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "2b1ac6d0-db41-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "4cb79586-daa3-11e9-80f5-00155d03ae09"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "fd7b8918-ea97-11e0-93e9-00155d00034b"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-23T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 107
+},
+{
+"#type": "jxs:decimal",
+"#value": 1458.72
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "332764fe-db42-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "cdf6ddcf-a6d9-11e9-80f7-00155d007a26"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "fd7b8918-ea97-11e0-93e9-00155d00034b"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-22T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 102
+},
+{
+"#type": "jxs:decimal",
+"#value": 18720
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "5f13d2ef-da7e-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "e397adb3-f80d-11e5-80fb-00155d007bf4"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "fd7b8918-ea97-11e0-93e9-00155d00034b"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-23T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 107
+},
+{
+"#type": "jxs:decimal",
+"#value": 1197
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "2b1ac6d0-db41-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "eaf6f755-eb46-11e9-80fb-00155d03ae09"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "fd7b8918-ea97-11e0-93e9-00155d00034b"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-22T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 102
+},
+{
+"#type": "jxs:decimal",
+"#value": 1800
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "5f13d2ef-da7e-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "ce0fe675-fba5-11e9-80fb-00155d03ae09"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "b2534ea9-dd52-11dd-b2a5-001517643e50"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-23T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 103
+},
+{
+"#type": "jxs:decimal",
+"#value": 739.2
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "1de9da38-d9c2-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "ce0fe675-fba5-11e9-80fb-00155d03ae09"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "b2534ea9-dd52-11dd-b2a5-001517643e50"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-23T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 103
+},
+{
+"#type": "jxs:decimal",
+"#value": 3698.8
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "3d10a290-d9c2-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "ce0fe675-fba5-11e9-80fb-00155d03ae09"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "b2534ea9-dd52-11dd-b2a5-001517643e50"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-23T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 103
+},
+{
+"#type": "jxs:decimal",
+"#value": 1108.8
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "035bd711-db43-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "ce0fe675-fba5-11e9-80fb-00155d03ae09"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "b2534ea9-dd52-11dd-b2a5-001517643e50"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-23T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 103
+},
+{
+"#type": "jxs:decimal",
+"#value": 1699.6
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "884b694c-dc12-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "ce0fe675-fba5-11e9-80fb-00155d03ae09"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "b2534ea9-dd52-11dd-b2a5-001517643e50"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-24T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 104
+},
+{
+"#type": "jxs:decimal",
+"#value": 1999.2
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "884b694c-dc12-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "ce0fe675-fba5-11e9-80fb-00155d03ae09"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "b2534ea9-dd52-11dd-b2a5-001517643e50"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-25T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 105
+},
+{
+"#type": "jxs:decimal",
+"#value": 2217.6
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "23aa6e53-dc14-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "0b12acae-2897-11ea-8106-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "fd7b8918-ea97-11e0-93e9-00155d00034b"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-22T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 103
+},
+{
+"#type": "jxs:decimal",
+"#value": 1980
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "5f13d2ef-da7e-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "8e8c8b78-289a-11ea-8106-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "fd7b8918-ea97-11e0-93e9-00155d00034b"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-22T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 103
+},
+{
+"#type": "jxs:decimal",
+"#value": 3000
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "5f13d2ef-da7e-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "77ab091e-62a4-11ea-8108-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "b2534ea9-dd52-11dd-b2a5-001517643e50"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-24T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 104
+},
+{
+"#type": "jxs:decimal",
+"#value": 198
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "1de9da38-d9c2-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "334db69d-d335-11ea-8117-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "fd7b8918-ea97-11e0-93e9-00155d00034b"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-21T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 105
+},
+{
+"#type": "jxs:decimal",
+"#value": 198.72
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "02cee349-db42-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "334db69d-d335-11ea-8117-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "fd7b8918-ea97-11e0-93e9-00155d00034b"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-23T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 110
+},
+{
+"#type": "jxs:decimal",
+"#value": 2999.52
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "94e95a48-db42-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "1546739c-d336-11ea-8117-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "fd7b8918-ea97-11e0-93e9-00155d00034b"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-21T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 105
+},
+{
+"#type": "jxs:decimal",
+"#value": 1399.68
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "02cee349-db42-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "9b7ece8e-e083-11ea-8117-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "b2534ea9-dd52-11dd-b2a5-001517643e50"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-22T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 105
+},
+{
+"#type": "jxs:decimal",
+"#value": 399.36
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "2087b129-db41-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "42779c2c-e084-11ea-8117-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "fd7b8918-ea97-11e0-93e9-00155d00034b"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-22T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 105
+},
+{
+"#type": "jxs:decimal",
+"#value": 499.2
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "ecd8957a-d9dd-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "d4dff163-e084-11ea-8117-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "fd7b8918-ea97-11e0-93e9-00155d00034b"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-22T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 105
+},
+{
+"#type": "jxs:decimal",
+"#value": 199.68
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "ecd8957a-d9dd-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "2a47128d-e20b-11ea-8117-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "b2534ea9-dd52-11dd-b2a5-001517643e50"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-22T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 107
+},
+{
+"#type": "jxs:decimal",
+"#value": 120
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "08445820-dc1d-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "f81cbaf3-edda-11ea-8117-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "fd7b8918-ea97-11e0-93e9-00155d00034b"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-23T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 109
+},
+{
+"#type": "jxs:decimal",
+"#value": 2000
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "ecd8957a-d9dd-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "42d4703f-f33c-11ea-8118-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "fd7b8918-ea97-11e0-93e9-00155d00034b"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-23T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 105
+},
+{
+"#type": "jxs:decimal",
+"#value": 1797.9
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "ecd8957a-d9dd-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "50713d14-04a6-11eb-8118-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "b2534ea9-dd52-11dd-b2a5-001517643e50"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-21T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 101
+},
+{
+"#type": "jxs:decimal",
+"#value": 19.2
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "77785b47-dbe5-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "791c6189-6096-11eb-811a-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "b2534ea9-dd52-11dd-b2a5-001517643e50"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-22T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 105
+},
+{
+"#type": "jxs:decimal",
+"#value": 499.8
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "2087b129-db41-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "842f233b-6098-11eb-811a-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "fd7b8918-ea97-11e0-93e9-00155d00034b"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-22T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 105
+},
+{
+"#type": "jxs:decimal",
+"#value": 697.2
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "ecd8957a-d9dd-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "3e405e5d-97a6-11eb-811b-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "b2534ea9-dd52-11dd-b2a5-001517643e50"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-22T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 105
+},
+{
+"#type": "jxs:decimal",
+"#value": 1499.04
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "f2a9d30e-db4e-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "3e405e5d-97a6-11eb-811b-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "b2534ea9-dd52-11dd-b2a5-001517643e50"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-22T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 105
+},
+{
+"#type": "jxs:decimal",
+"#value": 8.64
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "08445820-dc1d-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "a0c21751-97a8-11eb-811b-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "b2534ea9-dd52-11dd-b2a5-001517643e50"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-22T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 105
+},
+{
+"#type": "jxs:decimal",
+"#value": 1500.48
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "f2a9d30e-db4e-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "a0c21751-97a8-11eb-811b-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "b2534ea9-dd52-11dd-b2a5-001517643e50"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-22T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 105
+},
+{
+"#type": "jxs:decimal",
+"#value": 269.28
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "08445820-dc1d-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "be435f1e-b4c0-11eb-811d-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "b2534ea9-dd52-11dd-b2a5-001517643e50"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-22T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 105
+},
+{
+"#type": "jxs:decimal",
+"#value": 11.4
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "08445820-dc1d-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "2cb2424a-b4c2-11eb-811d-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "b2534ea9-dd52-11dd-b2a5-001517643e50"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-22T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 105
+},
+{
+"#type": "jxs:decimal",
+"#value": 248.52
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "08445820-dc1d-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "667e489d-de59-11eb-8120-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "fd7b8918-ea97-11e0-93e9-00155d00034b"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-25T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 102
+},
+{
+"#type": "jxs:decimal",
+"#value": 1000
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "0394a2b5-dc1a-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "77f9e672-f39b-11eb-8120-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "fd7b8918-ea97-11e0-93e9-00155d00034b"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-23T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 107
+},
+{
+"#type": "jxs:decimal",
+"#value": 2049.6
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "ecd8957a-d9dd-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "4057d2e2-f39e-11eb-8120-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "fd7b8918-ea97-11e0-93e9-00155d00034b"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-23T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 107
+},
+{
+"#type": "jxs:decimal",
+"#value": 2049.6
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "ecd8957a-d9dd-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "9b0fe422-04b8-11ec-8120-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "fd7b8918-ea97-11e0-93e9-00155d00034b"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-22T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 107
+},
+{
+"#type": "jxs:decimal",
+"#value": 25
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "cb4ee20e-d9b3-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "d6408313-21de-11ec-8128-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "fd7b8918-ea97-11e0-93e9-00155d00034b"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-25T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 101
+},
+{
+"#type": "jxs:decimal",
+"#value": 1000
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "0394a2b5-dc1a-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "fe11a91c-269b-11ec-8128-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "fd7b8918-ea97-11e0-93e9-00155d00034b"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-22T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 105
+},
+{
+"#type": "jxs:decimal",
+"#value": 312
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "ecd8957a-d9dd-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "1a1472b2-26a1-11ec-8128-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "fd7b8918-ea97-11e0-93e9-00155d00034b"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-22T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 105
+},
+{
+"#type": "jxs:decimal",
+"#value": 312
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "ecd8957a-d9dd-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "59d59ca2-276e-11ec-8128-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "b2534ea9-dd52-11dd-b2a5-001517643e50"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-22T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 104
+},
+{
+"#type": "jxs:decimal",
+"#value": 247.8
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "2087b129-db41-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "7f96c584-2dbd-11ec-8128-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "fd7b8918-ea97-11e0-93e9-00155d00034b"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-23T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 107
+},
+{
+"#type": "jxs:decimal",
+"#value": 1800
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "94e95a48-db42-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "7ec89465-3199-11ec-8128-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "fd7b8918-ea97-11e0-93e9-00155d00034b"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-21T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 103
+},
+{
+"#type": "jxs:decimal",
+"#value": 1000
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "0394a2b5-dc1a-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "7ec89465-3199-11ec-8128-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "fd7b8918-ea97-11e0-93e9-00155d00034b"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-23T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 107
+},
+{
+"#type": "jxs:decimal",
+"#value": 1000
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "0394a2b5-dc1a-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "8a766940-388d-11ec-812c-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "b2534ea9-dd52-11dd-b2a5-001517643e50"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-21T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 103
+},
+{
+"#type": "jxs:decimal",
+"#value": 299.52
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "08445820-dc1d-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "298e4315-7dde-11ec-8154-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "fd7b8918-ea97-11e0-93e9-00155d00034b"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-26T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 103
+},
+{
+"#type": "jxs:decimal",
+"#value": 15000
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "36a9adee-dc1a-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "b3028f94-90bd-11ec-815b-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "b2534ea9-dd52-11dd-b2a5-001517643e50"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-23T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 107
+},
+{
+"#type": "jxs:decimal",
+"#value": 599.04
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "108f0b76-db42-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "7d5248b8-9c7f-11ec-8162-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "b2534ea9-dd52-11dd-b2a5-001517643e50"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-24T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 104
+},
+{
+"#type": "jxs:decimal",
+"#value": 298.8
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "1de9da38-d9c2-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "36c55e58-ae7e-11ec-8168-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "fd7b8918-ea97-11e0-93e9-00155d00034b"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-21T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 103
+},
+{
+"#type": "jxs:decimal",
+"#value": 5000
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "f3363aab-db41-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "36c55e58-ae7e-11ec-8168-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "fd7b8918-ea97-11e0-93e9-00155d00034b"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-21T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 103
+},
+{
+"#type": "jxs:decimal",
+"#value": 5000
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "02cee349-db42-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "36c55e58-ae7e-11ec-8168-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "fd7b8918-ea97-11e0-93e9-00155d00034b"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-23T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 107
+},
+{
+"#type": "jxs:decimal",
+"#value": 5000
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "332764fe-db42-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "36c55e58-ae7e-11ec-8168-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "fd7b8918-ea97-11e0-93e9-00155d00034b"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-23T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 107
+},
+{
+"#type": "jxs:decimal",
+"#value": 5000
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "94e95a48-db42-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "866bc373-c7b8-11ec-8176-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "b2534ea9-dd52-11dd-b2a5-001517643e50"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-21T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 103
+},
+{
+"#type": "jxs:decimal",
+"#value": 499.2
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "98076033-db4d-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "03984d62-dcf2-11ec-8188-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "fd7b8918-ea97-11e0-93e9-00155d00034b"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-22T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 104
+},
+{
+"#type": "jxs:decimal",
+"#value": 25.2
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "cb4ee20e-d9b3-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "dbf01719-dcfb-11ec-8188-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "fd7b8918-ea97-11e0-93e9-00155d00034b"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-21T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 103
+},
+{
+"#type": "jxs:decimal",
+"#value": 147
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "ecd8957a-d9dd-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "6ce711cc-dd00-11ec-8188-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "fd7b8918-ea97-11e0-93e9-00155d00034b"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-21T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 103
+},
+{
+"#type": "jxs:decimal",
+"#value": 147
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "ecd8957a-d9dd-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "2abd136e-f143-11ec-8196-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "fd7b8918-ea97-11e0-93e9-00155d00034b"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-23T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 110
+},
+{
+"#type": "jxs:decimal",
+"#value": 599.04
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "94e95a48-db42-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "918ed1b4-f146-11ec-8196-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "fd7b8918-ea97-11e0-93e9-00155d00034b"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-23T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 110
+},
+{
+"#type": "jxs:decimal",
+"#value": 599.04
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "94e95a48-db42-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "db28cf16-f7ba-11ec-8198-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "b2534ea9-dd52-11dd-b2a5-001517643e50"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-22T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 105
+},
+{
+"#type": "jxs:decimal",
+"#value": 169.6
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "08445820-dc1d-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "e0697b78-f7bd-11ec-8198-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "b2534ea9-dd52-11dd-b2a5-001517643e50"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-22T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 105
+},
+{
+"#type": "jxs:decimal",
+"#value": 220.8
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "08445820-dc1d-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "958b999f-0984-11ed-81a1-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "fd7b8918-ea97-11e0-93e9-00155d00034b"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-23T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 107
+},
+{
+"#type": "jxs:decimal",
+"#value": 400
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "b9d6843e-dc05-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "802397c1-0987-11ed-81a1-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "fd7b8918-ea97-11e0-93e9-00155d00034b"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-23T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 107
+},
+{
+"#type": "jxs:decimal",
+"#value": 136
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "b9d6843e-dc05-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "96ee1c55-3bd6-11ed-81cf-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "fd7b8918-ea97-11e0-93e9-00155d00034b"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-23T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 107
+},
+{
+"#type": "jxs:decimal",
+"#value": 2998.8
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "18d1fa7f-db42-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "ae6fd590-3bda-11ed-81cf-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "fd7b8918-ea97-11e0-93e9-00155d00034b"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-23T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 107
+},
+{
+"#type": "jxs:decimal",
+"#value": 999.6
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "18d1fa7f-db42-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "15baefa0-42fd-11ed-81d6-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "fd7b8918-ea97-11e0-93e9-00155d00034b"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-23T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 107
+},
+{
+"#type": "jxs:decimal",
+"#value": 300
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "b9d6843e-dc05-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "ce155862-42ff-11ed-81d6-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "fd7b8918-ea97-11e0-93e9-00155d00034b"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-23T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 107
+},
+{
+"#type": "jxs:decimal",
+"#value": 198.72
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "94e95a48-db42-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "6f366a93-6fb0-11ed-8205-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "b2534ea9-dd52-11dd-b2a5-001517643e50"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-21T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 103
+},
+{
+"#type": "jxs:decimal",
+"#value": 149.4
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "98076033-db4d-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "6f366a93-6fb0-11ed-8205-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "b2534ea9-dd52-11dd-b2a5-001517643e50"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-22T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 105
+},
+{
+"#type": "jxs:decimal",
+"#value": 81
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "08445820-dc1d-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "dc39555c-7faa-11ed-820b-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "b2534ea9-dd52-11dd-b2a5-001517643e50"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-22T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 105
+},
+{
+"#type": "jxs:decimal",
+"#value": 249.76
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "2087b129-db41-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "21a99806-802c-11ed-820b-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "b2534ea9-dd52-11dd-b2a5-001517643e50"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-22T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 105
+},
+{
+"#type": "jxs:decimal",
+"#value": 491.68
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "2087b129-db41-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "ef8c4ac5-8849-11ed-8210-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "fd7b8918-ea97-11e0-93e9-00155d00034b"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-23T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 105
+},
+{
+"#type": "jxs:decimal",
+"#value": 6997.2
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "2b1ac6d0-db41-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "27e98eb7-884b-11ed-8210-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "fd7b8918-ea97-11e0-93e9-00155d00034b"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-22T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 104
+},
+{
+"#type": "jxs:decimal",
+"#value": 92.4
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "cb4ee20e-d9b3-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "692fc9aa-884c-11ed-8210-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "fd7b8918-ea97-11e0-93e9-00155d00034b"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-22T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 104
+},
+{
+"#type": "jxs:decimal",
+"#value": 58.8
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "cb4ee20e-d9b3-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "692fc9aa-884c-11ed-8210-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "fd7b8918-ea97-11e0-93e9-00155d00034b"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-22T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 104
+},
+{
+"#type": "jxs:decimal",
+"#value": 999.6
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "2b1ac6d0-db41-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "62162f09-9b14-11ed-8218-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "b2534ea9-dd52-11dd-b2a5-001517643e50"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-21T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 103
+},
+{
+"#type": "jxs:decimal",
+"#value": 1999.2
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "98076033-db4d-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "ff164555-9b1b-11ed-8218-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "b2534ea9-dd52-11dd-b2a5-001517643e50"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-21T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 103
+},
+{
+"#type": "jxs:decimal",
+"#value": 3999.6
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "98076033-db4d-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "ff164555-9b1b-11ed-8218-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "b2534ea9-dd52-11dd-b2a5-001517643e50"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-22T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 105
+},
+{
+"#type": "jxs:decimal",
+"#value": 999
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "f2a9d30e-db4e-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "efcfd8ac-b80f-11ed-8222-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "b2534ea9-dd52-11dd-b2a5-001517643e50"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-21T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 103
+},
+{
+"#type": "jxs:decimal",
+"#value": 478.8
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "27a16391-d9dd-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "29c31815-b817-11ed-8222-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "b2534ea9-dd52-11dd-b2a5-001517643e50"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-21T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 103
+},
+{
+"#type": "jxs:decimal",
+"#value": 478.8
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "27a16391-d9dd-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "f537d9d6-b8c3-11ed-8222-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "b2534ea9-dd52-11dd-b2a5-001517643e50"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-22T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 105
+},
+{
+"#type": "jxs:decimal",
+"#value": 1197
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "2087b129-db41-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "35969548-b8c7-11ed-8222-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "b2534ea9-dd52-11dd-b2a5-001517643e50"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-22T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 105
+},
+{
+"#type": "jxs:decimal",
+"#value": 348.6
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "2087b129-db41-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "560b96ed-b8cb-11ed-8222-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "b2534ea9-dd52-11dd-b2a5-001517643e50"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-22T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 105
+},
+{
+"#type": "jxs:decimal",
+"#value": 96.6
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "2087b129-db41-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "34d32677-cc9b-11ed-8229-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "b2534ea9-dd52-11dd-b2a5-001517643e50"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-21T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 101
+},
+{
+"#type": "jxs:decimal",
+"#value": 192
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "77785b47-dbe5-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "15c59295-ea78-11ed-8235-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "b2534ea9-dd52-11dd-b2a5-001517643e50"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-22T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 105
+},
+{
+"#type": "jxs:decimal",
+"#value": 1200.6
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "f2a9d30e-db4e-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "c1195169-f0c6-11ed-8236-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "b2534ea9-dd52-11dd-b2a5-001517643e50"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-23T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 107
+},
+{
+"#type": "jxs:decimal",
+"#value": 199.68
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "f1f73d90-dccf-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "c1195169-f0c6-11ed-8236-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "b2534ea9-dd52-11dd-b2a5-001517643e50"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2026-01-02T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 123
+},
+{
+"#type": "jxs:decimal",
+"#value": 280.32
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "f1f73d90-dccf-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "e8d9208b-011f-11ee-8238-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "b2534ea9-dd52-11dd-b2a5-001517643e50"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-25T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 107
+},
+{
+"#type": "jxs:decimal",
+"#value": 1050
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "f1f73d90-dccf-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "01cf3d10-05c4-11ee-8238-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "fd7b8918-ea97-11e0-93e9-00155d00034b"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-23T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 113
+},
+{
+"#type": "jxs:decimal",
+"#value": 599.04
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "02cee349-db42-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "40d53479-05ca-11ee-8238-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "fd7b8918-ea97-11e0-93e9-00155d00034b"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-23T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 113
+},
+{
+"#type": "jxs:decimal",
+"#value": 299.52
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "02cee349-db42-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "6ba0754e-09e7-11ee-8238-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "b2534ea9-dd52-11dd-b2a5-001517643e50"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-23T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 109
+},
+{
+"#type": "jxs:decimal",
+"#value": 92.56
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "108f0b76-db42-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "e8fb2fce-09eb-11ee-8238-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "b2534ea9-dd52-11dd-b2a5-001517643e50"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-23T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 109
+},
+{
+"#type": "jxs:decimal",
+"#value": 26
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "108f0b76-db42-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "e8035788-0eb2-11ee-8238-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "b2534ea9-dd52-11dd-b2a5-001517643e50"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-23T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 107
+},
+{
+"#type": "jxs:decimal",
+"#value": 149.76
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "108f0b76-db42-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "3232924f-0eb5-11ee-8238-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "b2534ea9-dd52-11dd-b2a5-001517643e50"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-23T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 107
+},
+{
+"#type": "jxs:decimal",
+"#value": 299.52
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "108f0b76-db42-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "df120c1f-167d-11ee-8239-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "b2534ea9-dd52-11dd-b2a5-001517643e50"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-20T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 102
+},
+{
+"#type": "jxs:decimal",
+"#value": 279
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "08445820-dc1d-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "915349d4-5ea8-11ee-8257-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "b2534ea9-dd52-11dd-b2a5-001517643e50"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-22T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 105
+},
+{
+"#type": "jxs:decimal",
+"#value": 1598.4
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "f2a9d30e-db4e-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "a79550e2-7e41-11ee-8266-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "b2534ea9-dd52-11dd-b2a5-001517643e50"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-22T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 105
+},
+{
+"#type": "jxs:decimal",
+"#value": 1699.2
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "f2a9d30e-db4e-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "53b1e985-7e44-11ee-8266-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "b2534ea9-dd52-11dd-b2a5-001517643e50"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-22T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 105
+},
+{
+"#type": "jxs:decimal",
+"#value": 2399.4
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "f2a9d30e-db4e-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "293f9f0e-82b4-11ee-8268-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "fd7b8918-ea97-11e0-93e9-00155d00034b"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-22T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 105
+},
+{
+"#type": "jxs:decimal",
+"#value": 7998.24
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "0394a2b5-dc1a-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "877bef85-8f8a-11ee-8268-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "b2534ea9-dd52-11dd-b2a5-001517643e50"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-23T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 107
+},
+{
+"#type": "jxs:decimal",
+"#value": 1050
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "108f0b76-db42-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "056f6beb-9db2-11ee-826a-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "fd7b8918-ea97-11e0-93e9-00155d00034b"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-23T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 107
+},
+{
+"#type": "jxs:decimal",
+"#value": 1999.2
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "18d1fa7f-db42-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "044e0e6d-cb13-11ee-826d-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "b2534ea9-dd52-11dd-b2a5-001517643e50"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-22T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 105
+},
+{
+"#type": "jxs:decimal",
+"#value": 4998.24
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "f2a9d30e-db4e-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "250a954a-e5e3-11ee-8270-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "b2534ea9-dd52-11dd-b2a5-001517643e50"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-25T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 105
+},
+{
+"#type": "jxs:decimal",
+"#value": 1000
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "035bd711-db43-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "244caac5-e5e6-11ee-8270-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "b2534ea9-dd52-11dd-b2a5-001517643e50"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-25T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 105
+},
+{
+"#type": "jxs:decimal",
+"#value": 449.6
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "23aa6e53-dc14-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "3c9772d9-eab4-11ee-8270-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "b2534ea9-dd52-11dd-b2a5-001517643e50"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-23T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 107
+},
+{
+"#type": "jxs:decimal",
+"#value": 499.2
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "108f0b76-db42-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "a4fa5cc8-f26c-11ee-8272-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "b2534ea9-dd52-11dd-b2a5-001517643e50"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-22T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 103
+},
+{
+"#type": "jxs:decimal",
+"#value": 2304
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "035bd711-db43-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "a4fa5cc8-f26c-11ee-8272-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "b2534ea9-dd52-11dd-b2a5-001517643e50"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-22T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 103
+},
+{
+"#type": "jxs:decimal",
+"#value": 3504
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "884b694c-dc12-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "a4fa5cc8-f26c-11ee-8272-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "b2534ea9-dd52-11dd-b2a5-001517643e50"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-22T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 103
+},
+{
+"#type": "jxs:decimal",
+"#value": 1000
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "fbca25c7-dc13-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "a4fa5cc8-f26c-11ee-8272-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "b2534ea9-dd52-11dd-b2a5-001517643e50"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-22T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 103
+},
+{
+"#type": "jxs:decimal",
+"#value": 1992
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "23aa6e53-dc14-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "6baf9b08-f281-11ee-8272-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "b2534ea9-dd52-11dd-b2a5-001517643e50"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-24T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 104
+},
+{
+"#type": "jxs:decimal",
+"#value": 198
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "1de9da38-d9c2-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "6baf9b08-f281-11ee-8272-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "b2534ea9-dd52-11dd-b2a5-001517643e50"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-25T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 105
+},
+{
+"#type": "jxs:decimal",
+"#value": 838.8
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "87667465-dccf-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "772d6e4c-2c86-11ef-8279-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "fd7b8918-ea97-11e0-93e9-00155d00034b"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-22T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 101
+},
+{
+"#type": "jxs:decimal",
+"#value": 1500
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "5f13d2ef-da7e-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "772d6e4c-2c86-11ef-8279-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "fd7b8918-ea97-11e0-93e9-00155d00034b"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-24T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 102
+},
+{
+"#type": "jxs:decimal",
+"#value": 1000
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "5f13d2ef-da7e-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "61d102e0-403c-11ef-827a-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "fd7b8918-ea97-11e0-93e9-00155d00034b"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-23T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 107
+},
+{
+"#type": "jxs:decimal",
+"#value": 999.6
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "18d1fa7f-db42-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "bbf67356-5b07-11ef-827a-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "b2534ea9-dd52-11dd-b2a5-001517643e50"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-25T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 105
+},
+{
+"#type": "jxs:decimal",
+"#value": 808
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "035bd711-db43-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "94948168-5eb7-11ef-827b-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "b2534ea9-dd52-11dd-b2a5-001517643e50"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-23T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 107
+},
+{
+"#type": "jxs:decimal",
+"#value": 480
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "108f0b76-db42-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "0e143199-6536-11ef-827c-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "fd7b8918-ea97-11e0-93e9-00155d00034b"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-22T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 110
+},
+{
+"#type": "jxs:decimal",
+"#value": 2413.8
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "332764fe-db42-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "0e143199-6536-11ef-827c-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "fd7b8918-ea97-11e0-93e9-00155d00034b"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-23T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 113
+},
+{
+"#type": "jxs:decimal",
+"#value": 2539.8
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "332764fe-db42-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "37f1c351-6603-11ef-827c-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "b2534ea9-dd52-11dd-b2a5-001517643e50"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-22T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 107
+},
+{
+"#type": "jxs:decimal",
+"#value": 99.36
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "f2a9d30e-db4e-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "1f78d76f-8260-11ef-827e-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "fd7b8918-ea97-11e0-93e9-00155d00034b"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-21T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 104
+},
+{
+"#type": "jxs:decimal",
+"#value": 1800
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "70f81517-d9cf-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "1f78d76f-8260-11ef-827e-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "fd7b8918-ea97-11e0-93e9-00155d00034b"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-23T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 109
+},
+{
+"#type": "jxs:decimal",
+"#value": 800
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "b9d6843e-dc05-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "07413455-8c65-11ef-827e-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "b2534ea9-dd52-11dd-b2a5-001517643e50"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-22T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 105
+},
+{
+"#type": "jxs:decimal",
+"#value": 250.88
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "2087b129-db41-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "db50d5b8-8c70-11ef-827e-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "b2534ea9-dd52-11dd-b2a5-001517643e50"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-22T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 105
+},
+{
+"#type": "jxs:decimal",
+"#value": 251.68
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "2087b129-db41-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "c806c062-8c79-11ef-827e-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "b2534ea9-dd52-11dd-b2a5-001517643e50"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-22T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 105
+},
+{
+"#type": "jxs:decimal",
+"#value": 251.68
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "2087b129-db41-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "5d92456a-95f9-11ef-827e-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "fd7b8918-ea97-11e0-93e9-00155d00034b"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-23T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 101
+},
+{
+"#type": "jxs:decimal",
+"#value": 1000
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "0394a2b5-dc1a-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "0747e514-a039-11ef-827e-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "fd7b8918-ea97-11e0-93e9-00155d00034b"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-23T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 109
+},
+{
+"#type": "jxs:decimal",
+"#value": 1080
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "b9d6843e-dc05-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "72d0a41c-bd16-11ef-827e-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "fd7b8918-ea97-11e0-93e9-00155d00034b"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-23T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 109
+},
+{
+"#type": "jxs:decimal",
+"#value": 330
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "b9d6843e-dc05-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "b574ff56-bd18-11ef-827e-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "fd7b8918-ea97-11e0-93e9-00155d00034b"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-21T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 104
+},
+{
+"#type": "jxs:decimal",
+"#value": 600
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "11b111ad-d9de-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "8c761b95-c12d-11ef-827e-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "b2534ea9-dd52-11dd-b2a5-001517643e50"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-22T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 105
+},
+{
+"#type": "jxs:decimal",
+"#value": 349.2
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "2087b129-db41-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "a4812c8c-c130-11ef-827e-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "b2534ea9-dd52-11dd-b2a5-001517643e50"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-22T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 105
+},
+{
+"#type": "jxs:decimal",
+"#value": 450
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "2087b129-db41-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "f0fb3993-c131-11ef-827e-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "b2534ea9-dd52-11dd-b2a5-001517643e50"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-22T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 105
+},
+{
+"#type": "jxs:decimal",
+"#value": 450
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "2087b129-db41-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "5c7d6d28-d7e9-11ef-827f-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "fd7b8918-ea97-11e0-93e9-00155d00034b"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-21T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 104
+},
+{
+"#type": "jxs:decimal",
+"#value": 222
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "70f81517-d9cf-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "668c06d0-d7fc-11ef-827f-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "fd7b8918-ea97-11e0-93e9-00155d00034b"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-22T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 107
+},
+{
+"#type": "jxs:decimal",
+"#value": 3800
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "2b1ac6d0-db41-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "495ecddb-d7fe-11ef-827f-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "fd7b8918-ea97-11e0-93e9-00155d00034b"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-23T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 109
+},
+{
+"#type": "jxs:decimal",
+"#value": 5200
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "ecd8957a-d9dd-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "42b37aec-d804-11ef-827f-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "fd7b8918-ea97-11e0-93e9-00155d00034b"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-23T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 109
+},
+{
+"#type": "jxs:decimal",
+"#value": 399
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "ecd8957a-d9dd-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "0f7d2ca4-fb4b-11ef-8280-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "b2534ea9-dd52-11dd-b2a5-001517643e50"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-23T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 104
+},
+{
+"#type": "jxs:decimal",
+"#value": 1398.6
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "108f0b76-db42-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "cb4452cb-1481-11f0-8281-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "fd7b8918-ea97-11e0-93e9-00155d00034b"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-23T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 110
+},
+{
+"#type": "jxs:decimal",
+"#value": 1575
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "2b1ac6d0-db41-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "ea537f40-1482-11f0-8281-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "fd7b8918-ea97-11e0-93e9-00155d00034b"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-23T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 110
+},
+{
+"#type": "jxs:decimal",
+"#value": 1050
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "2b1ac6d0-db41-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "771a7252-1484-11f0-8281-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "fd7b8918-ea97-11e0-93e9-00155d00034b"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-23T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 110
+},
+{
+"#type": "jxs:decimal",
+"#value": 2100
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "2b1ac6d0-db41-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "dd14501c-1485-11f0-8281-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "fd7b8918-ea97-11e0-93e9-00155d00034b"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-23T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 110
+},
+{
+"#type": "jxs:decimal",
+"#value": 2100
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "2b1ac6d0-db41-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "a92a5612-1488-11f0-8281-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "fd7b8918-ea97-11e0-93e9-00155d00034b"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-23T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 110
+},
+{
+"#type": "jxs:decimal",
+"#value": 1050
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "2b1ac6d0-db41-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "d27fe4a8-1541-11f0-8281-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "fd7b8918-ea97-11e0-93e9-00155d00034b"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-22T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 107
+},
+{
+"#type": "jxs:decimal",
+"#value": 3780
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "94e95a48-db42-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "2abf6187-1543-11f0-8281-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "fd7b8918-ea97-11e0-93e9-00155d00034b"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-20T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 103
+},
+{
+"#type": "jxs:decimal",
+"#value": 320
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "11b111ad-d9de-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "faed492b-1546-11f0-8281-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "fd7b8918-ea97-11e0-93e9-00155d00034b"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-20T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 105
+},
+{
+"#type": "jxs:decimal",
+"#value": 70
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "11b111ad-d9de-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "64c4d011-1549-11f0-8281-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "fd7b8918-ea97-11e0-93e9-00155d00034b"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-20T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 103
+},
+{
+"#type": "jxs:decimal",
+"#value": 200
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "11b111ad-d9de-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "8c1f0797-154a-11f0-8281-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "fd7b8918-ea97-11e0-93e9-00155d00034b"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-21T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 104
+},
+{
+"#type": "jxs:decimal",
+"#value": 5400
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "11b111ad-d9de-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "8c1f0797-154a-11f0-8281-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "fd7b8918-ea97-11e0-93e9-00155d00034b"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-23T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 109
+},
+{
+"#type": "jxs:decimal",
+"#value": 3440
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "f3363aab-db41-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "26f8f869-154e-11f0-8281-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "fd7b8918-ea97-11e0-93e9-00155d00034b"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-20T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 105
+},
+{
+"#type": "jxs:decimal",
+"#value": 129
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "11b111ad-d9de-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "25255a19-154f-11f0-8281-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "fd7b8918-ea97-11e0-93e9-00155d00034b"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-20T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 103
+},
+{
+"#type": "jxs:decimal",
+"#value": 180
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "11b111ad-d9de-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "227f583a-1551-11f0-8281-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "fd7b8918-ea97-11e0-93e9-00155d00034b"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-20T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 103
+},
+{
+"#type": "jxs:decimal",
+"#value": 99
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "11b111ad-d9de-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "a340b66f-16da-11f0-8281-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "fd7b8918-ea97-11e0-93e9-00155d00034b"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-21T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 104
+},
+{
+"#type": "jxs:decimal",
+"#value": 825
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "70f81517-d9cf-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "9f9cd9ba-3a07-11f0-8284-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "b2534ea9-dd52-11dd-b2a5-001517643e50"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-22T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 103
+},
+{
+"#type": "jxs:decimal",
+"#value": 568
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "23aa6e53-dc14-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "668facb2-3a0a-11f0-8284-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "b2534ea9-dd52-11dd-b2a5-001517643e50"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-23T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 103
+},
+{
+"#type": "jxs:decimal",
+"#value": 366.8
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "1de9da38-d9c2-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "668facb2-3a0a-11f0-8284-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "b2534ea9-dd52-11dd-b2a5-001517643e50"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-24T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 104
+},
+{
+"#type": "jxs:decimal",
+"#value": 1108.8
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "035bd711-db43-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "dd31e965-3a0d-11f0-8284-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "b2534ea9-dd52-11dd-b2a5-001517643e50"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-23T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 103
+},
+{
+"#type": "jxs:decimal",
+"#value": 739.2
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "1de9da38-d9c2-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "dd31e965-3a0d-11f0-8284-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "b2534ea9-dd52-11dd-b2a5-001517643e50"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-24T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 104
+},
+{
+"#type": "jxs:decimal",
+"#value": 739.2
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "035bd711-db43-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "28317cd3-3a12-11f0-8284-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "b2534ea9-dd52-11dd-b2a5-001517643e50"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-20T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 101
+},
+{
+"#type": "jxs:decimal",
+"#value": 1108.674
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "1de9da38-d9c2-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "332a7697-5b10-11f0-8289-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "b2534ea9-dd52-11dd-b2a5-001517643e50"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-22T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 105
+},
+{
+"#type": "jxs:decimal",
+"#value": 480
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "2087b129-db41-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "7b20ff67-5b1c-11f0-8289-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "b2534ea9-dd52-11dd-b2a5-001517643e50"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-22T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 105
+},
+{
+"#type": "jxs:decimal",
+"#value": 8.96
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "2087b129-db41-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "37187cb1-60c1-11f0-8289-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "fd7b8918-ea97-11e0-93e9-00155d00034b"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-22T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 108
+},
+{
+"#type": "jxs:decimal",
+"#value": 1050
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "2b1ac6d0-db41-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "b34d8947-6ed5-11f0-828c-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "fd7b8918-ea97-11e0-93e9-00155d00034b"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-23T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 107
+},
+{
+"#type": "jxs:decimal",
+"#value": 999.04
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "18d1fa7f-db42-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "a7749fb5-9304-11f0-828e-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "fd7b8918-ea97-11e0-93e9-00155d00034b"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-21T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 103
+},
+{
+"#type": "jxs:decimal",
+"#value": 52.8
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "cb4ee20e-d9b3-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "a7749fb5-9304-11f0-828e-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "fd7b8918-ea97-11e0-93e9-00155d00034b"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-23T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 107
+},
+{
+"#type": "jxs:decimal",
+"#value": 7598.4
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "ecd8957a-d9dd-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "c21724ab-9308-11f0-828e-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "fd7b8918-ea97-11e0-93e9-00155d00034b"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-21T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 103
+},
+{
+"#type": "jxs:decimal",
+"#value": 3196.8
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "cb4ee20e-d9b3-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "c21724ab-9308-11f0-828e-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "fd7b8918-ea97-11e0-93e9-00155d00034b"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-25T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 110
+},
+{
+"#type": "jxs:decimal",
+"#value": 6398.4
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "2b1ac6d0-db41-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "661467fa-a808-11f0-828e-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "b2534ea9-dd52-11dd-b2a5-001517643e50"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-23T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 103
+},
+{
+"#type": "jxs:decimal",
+"#value": 936
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "23aa6e53-dc14-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "661467fa-a808-11f0-828e-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "b2534ea9-dd52-11dd-b2a5-001517643e50"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-23T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 103
+},
+{
+"#type": "jxs:decimal",
+"#value": 1696
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "87667465-dccf-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "63c3b98a-a9ce-11f0-828e-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "b2534ea9-dd52-11dd-b2a5-001517643e50"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-23T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 103
+},
+{
+"#type": "jxs:decimal",
+"#value": 2920
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "1de9da38-d9c2-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "63c3b98a-a9ce-11f0-828e-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "b2534ea9-dd52-11dd-b2a5-001517643e50"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-23T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 103
+},
+{
+"#type": "jxs:decimal",
+"#value": 8080
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "3d10a290-d9c2-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "63c3b98a-a9ce-11f0-828e-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "b2534ea9-dd52-11dd-b2a5-001517643e50"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-26T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 106
+},
+{
+"#type": "jxs:decimal",
+"#value": 5496
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "fbca25c7-dc13-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "63c3b98a-a9ce-11f0-828e-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "b2534ea9-dd52-11dd-b2a5-001517643e50"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-26T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 106
+},
+{
+"#type": "jxs:decimal",
+"#value": 3608
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "87667465-dccf-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "276da2fc-b0c1-11f0-828e-00155d03a15c"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "b2534ea9-dd52-11dd-b2a5-001517643e50"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-24T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 104
+},
+{
+"#type": "jxs:decimal",
+"#value": 554.4
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "035bd711-db43-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "1e207315-def1-11e2-9e3d-00155d00034b"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "fd7b8918-ea97-11e0-93e9-00155d00034b"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-24T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 102
+},
+{
+"#type": "jxs:decimal",
+"#value": 2500
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "5f13d2ef-da7e-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "185c8d01-288c-11e0-bb8d-0007e9408f19"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "b2534ea9-dd52-11dd-b2a5-001517643e50"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-24T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 104
+},
+{
+"#type": "jxs:decimal",
+"#value": 369
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "fbca25c7-dc13-11f0-8291-00155d03a15c"
+}
+],
+[
+{
+"#type": "jcfg:CatalogRef.Номенклатура",
+"#value": "4493d1c4-3ffa-11e0-bb8d-0007e9408f19"
+},
+{
+"#type": "jcfg:CatalogRef.Склады",
+"#value": "fd7b8918-ea97-11e0-93e9-00155d00034b"
+},
+{
+"#type": "jxs:dateTime",
+"#value": "2025-12-24T00:00:00"
+},
+{
+"#type": "jcfg:CatalogRef.Качество",
+"#value": "0b2339f0-7183-11ee-8260-00155d03a15c"
+},
+{
+"#type": "jxs:decimal",
+"#value": 102
+},
+{
+"#type": "jxs:decimal",
+"#value": 6000
+},
+{
+"#type": "jcfg:DocumentRef.ЗаказНаПроизводство",
+"#value": "5f13d2ef-da7e-11f0-8291-00155d03a15c"
+}
+]
+]
+}
+}
