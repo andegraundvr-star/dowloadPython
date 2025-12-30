@@ -57,82 +57,73 @@ else:
 
 для второй задачи:
  
-!pip uninstall -y keras keras-nightly tf-keras tensorflow-keras tensorflow -q 2>/dev/null
+# ========== 1. ПОЛНАЯ ОЧИСТКА ==========
+!pip uninstall -y keras keras-nightly tensorflow tf-keras keras-vggface keras-applications -q 2>/dev/null
+print("🗑️  Старые пакеты удалены")
 
-# 2. Базовая установка
-!pip install --upgrade --force-reinstall "tensorflow==2.19.0" "tf-keras==2.19.0" -q
-!pip install keras-applications keras-vggface gdown -q
+# ========== 2. УСТАНОВКА СОВМЕСТИМЫХ ВЕРСИЙ ==========
+!pip install tensorflow==2.19.0 tf-keras==2.19.0 -q
+!pip install keras-vggface keras-applications -q
+!pip install h5py numpy pillow gdown -q  # Дополнительные зависимости
+print("✅ Совместимые пакеты установлены")
 
-# 3. УПРОЩЕННЫЙ ПАТЧ для keras-vggface (убрана проблемная строка)
-!find /usr/local/lib/python3.12/dist-packages/keras_vggface -name "*.py" -exec sed -i \
- -e 's/from keras\./from tf_keras./g' \
- -e 's/import keras\([^\.]\)/import tf_keras\1/g' \
- {} \;
+# ========== 3. НАСТРОЙКА ОКРУЖЕНИЯ ==========
+import os
+os.environ['TF_USE_LEGACY_KERAS'] = '1'  # КРИТИЧЕСКИ ВАЖНО
+print("✅ Переменная окружения установлена")
 
-# 4. Критическое исправление: заменяем устаревший импорт на актуальный
-# Вместо проблемного 'layer_utils' используем прямой импорт из 'layers'
-!sed -i "s|from tf_keras.src.engine.topology import get_source_inputs|from tf_keras.layers import get_source_inputs|g" /usr/local/lib/python3.12/dist-packages/keras_vggface/models.py
+# ========== 4. СОЗДАНИЕ ВИРТУАЛЬНЫХ МОДУЛЕЙ ==========
+import sys
+import tf_keras
+import tf_keras.utils
 
-# 5. Переменная окружения
+# Заглушка для отсутствующей функции get_source_inputs
+def simple_get_source_inputs(tensor):
+    return [tensor]
+
+# Виртуальные модули для layer_utils и topology
+class VirtualLayerUtils:
+    get_source_inputs = simple_get_source_inputs
+
+class VirtualTopology:
+    get_source_inputs = simple_get_source_inputs
+
+# Размещаем ВСЕ необходимые алиасы в системе
+sys.modules['keras.utils.layer_utils'] = VirtualLayerUtils()
+sys.modules['keras.engine.topology'] = VirtualTopology()
+sys.modules['tf_keras.utils.layer_utils'] = VirtualLayerUtils()
+sys.modules['tf_keras.engine.topology'] = VirtualTopology()
+
+# Алиасы для модулей utils
+sys.modules['keras.utils.data_utils'] = tf_keras.utils
+sys.modules['tf_keras.utils.data_utils'] = tf_keras.utils
+sys.modules['keras.utils'] = tf_keras.utils
+
+print("✅ Виртуальные модули созданы")
+
+# ========== 5. ПРОВЕРКА РАБОТОСПОСОБНОСТИ ==========
+print("\n🔍 Проверяем импорт VGGFace...")
+try:
+    from keras_vggface.vggface import VGGFace
+    print("✅ VGGFace импортирован успешно!")
+    
+    # Тест создания модели
+    base_model = VGGFace(model='resnet50', include_top=False, input_shape=(224, 224, 3))
+    print(f"✅ Модель создана. Выходная форма: {base_model.output_shape}")
+    print("\n🎉 ОКРУЖЕНИЕ ГОТОВО К РАБОТЕ!")
+    
+except Exception as e:
+    print(f"❌ Ошибка: {type(e).__name__}: {e}")
+
+# Всегда в начале новых ячеек
 import os
 os.environ['TF_USE_LEGACY_KERAS'] = '1'
 
-print("✅ Среда tf_keras настроена с упрощённым патчем.")
+# Правильные импорты
+from tf_keras import layers, Model, Input
+from tf_keras.optimizers import Adam
+from keras_vggface.vggface import VGGFace
 
-
-import os
-import sys
-
-# 1. Находим папку, где установлен keras_vggface
-# Ищем в путях Python (sys.path) папку с именем 'keras_vggface'
-utils_path = None
-for path in sys.path:
-    potential_path = os.path.join(path, 'keras_vggface', 'utils.py')
-    if os.path.exists(potential_path):
-        utils_path = potential_path
-        break
-
-if utils_path is None:
-    # Если не нашли стандартным способом, попробуем через pip show
-    import subprocess
-    result = subprocess.run(['pip', 'show', '-f', 'keras-vggface'], 
-                           capture_output=True, text=True)
-    for line in result.stdout.split('\n'):
-        if line.startswith('Location:'):
-            base_dir = line.split(': ')[1]
-            utils_path = os.path.join(base_dir, 'keras_vggface', 'utils.py')
-            break
-
-if utils_path is None:
-    print("❌ Не удалось найти файл keras_vggface/utils.py")
-else:
-    print(f"✅ Найден файл: {utils_path}")
-    
-    # 2. Читаем и исправляем файл
-    with open(utils_path, 'r') as file:
-        content = file.read()
-    
-    # 3. Заменяем проблемную строку (возможные варианты)
-    new_content = content.replace(
-        "from tf_keras.utils.data_utils import get_file",
-        "from tf_keras.utils import get_file  # Исправлено"
-    ).replace(
-        "from keras.utils.data_utils import get_file", 
-        "from tf_keras.utils import get_file  # Исправлено"
-    )
-    
-    # 4. Сохраняем исправленный файл
-    if content != new_content:
-        with open(utils_path, 'w') as file:
-            file.write(new_content)
-        print("✅ Файл utils.py успешно исправлен!")
-    else:
-        print("⚠️ Строка для исправления не найдена. Проверим содержимое...")
-        # Покажем первые 20 строк файла
-        lines = content.split('\n')
-        for i, line in enumerate(lines[:20]):
-            if 'get_file' in line or 'data_utils' in line:
-                print(f"   Строка {i+1}: {line}")
 
 
 
