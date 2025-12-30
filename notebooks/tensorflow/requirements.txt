@@ -1,0 +1,139 @@
+!pip show tensorflow tf-keras keras | grep -E "Name|Version"
+
+
+# ШАГ 0: Принудительно удаляем ВСЁ, что связано с Keras
+!pip uninstall -y keras keras-nightly tf-keras tensorflow-keras tensorflow -q 2>/dev/null
+
+# ШАГ 1: Ставим ЧИСТЫЙ TensorFlow и tf-keras ОДНОЙ командой
+# Используем '--no-deps', чтобы pip не тянул автоматические зависимости (в том числе keras 3.x)
+!pip install --upgrade --force-reinstall "tensorflow==2.19.0" "tf-keras==2.19.0" --no-deps -q
+
+# ШАГ 2: Ставим ОСТАЛЬНЫЕ пакеты БЕЗ их зависимостей
+!pip install keras-applications keras-vggface gdown --no-deps -q
+
+# ШАГ 3: ТОЛЬКО СЕЙЧАС настраиваем патч для keras-vggface
+!find /usr/local/lib/python3.12/dist-packages/keras_vggface -name "*.py" -exec sed -i \
+ -e 's/from keras\./from tf_keras./g' \
+ -e 's/import keras\([^\.]\)/import tf_keras\1/g' \
+ -e 's/tf_keras\.utils\./tf_keras.src.utils./g' \
+ {} \;
+!sed -i "s|from tf_keras.src.engine.topology import get_source_inputs|from tf_keras.src.utils.layer_utils import get_source_inputs|g" /usr/local/lib/python3.12/dist-packages/keras_vggface/models.py
+
+# ШАГ 4: Устанавливаем переменную окружения
+import os
+os.environ['TF_USE_LEGACY_KERAS'] = '1'
+
+print("✅ Чистая среда tf_keras готова. Проверяем...")
+
+
+# ЯЧЕЙКА 1 (Запустите САМУЮ ПЕРВУЮ)
+import os
+import tensorflow as tf
+
+# 1. Говорим TensorFlow использовать GPU (если есть)
+gpus = tf.config.list_physical_devices('GPU')
+if gpus:
+    # 1.1. Включаем рост памяти GPU, чтобы не занимать всё сразу
+    try:
+        for gpu in gpus:
+            tf.config.experimental.set_memory_growth(gpu, True)
+        print(f"✅ Memory growth включен для GPU: {gpus[0]}")
+    except RuntimeError as e:
+        # Это нормально, если устройства уже инициализированы
+        print(f"ℹ️  GPU уже инициализирован: {e}")
+    # 1.2. ВКЛЮЧАЕМ ЛОГИРОВАНИЕ УСТРОЙСТВ - КЛЮЧЕВОЙ ШАГ!
+    tf.debugging.set_log_device_placement(True)
+    print("✅ Логирование размещения операций ВКЛЮЧЕНО.")
+    # 1.3. Принудительный тест на GPU
+    print("\n🧪 Запускаю тестовое вычисление на GPU...")
+    with tf.device('/GPU:0'):
+        a = tf.constant([[1.0, 2.0, 3.0], [4.0, 5.0, 6.0]])
+        b = tf.constant([[1.0, 2.0], [3.0, 4.0], [5.0, 6.0]])
+        c = tf.matmul(a, b)
+        print(f"Результат (должны быть логи ниже):\n{c}")
+else:
+    print("❌ GPU не найден. Убедитесь, что в настройках среды выбрано 'ГПУ'.")
+
+
+для второй задачи:
+ 
+!pip uninstall -y keras keras-nightly tf-keras tensorflow-keras tensorflow -q 2>/dev/null
+
+# 2. Базовая установка
+!pip install --upgrade --force-reinstall "tensorflow==2.19.0" "tf-keras==2.19.0" -q
+!pip install keras-applications keras-vggface gdown -q
+
+# 3. УПРОЩЕННЫЙ ПАТЧ для keras-vggface (убрана проблемная строка)
+!find /usr/local/lib/python3.12/dist-packages/keras_vggface -name "*.py" -exec sed -i \
+ -e 's/from keras\./from tf_keras./g' \
+ -e 's/import keras\([^\.]\)/import tf_keras\1/g' \
+ {} \;
+
+# 4. Критическое исправление: заменяем устаревший импорт на актуальный
+# Вместо проблемного 'layer_utils' используем прямой импорт из 'layers'
+!sed -i "s|from tf_keras.src.engine.topology import get_source_inputs|from tf_keras.layers import get_source_inputs|g" /usr/local/lib/python3.12/dist-packages/keras_vggface/models.py
+
+# 5. Переменная окружения
+import os
+os.environ['TF_USE_LEGACY_KERAS'] = '1'
+
+print("✅ Среда tf_keras настроена с упрощённым патчем.")
+
+
+import os
+import sys
+
+# 1. Находим папку, где установлен keras_vggface
+# Ищем в путях Python (sys.path) папку с именем 'keras_vggface'
+utils_path = None
+for path in sys.path:
+    potential_path = os.path.join(path, 'keras_vggface', 'utils.py')
+    if os.path.exists(potential_path):
+        utils_path = potential_path
+        break
+
+if utils_path is None:
+    # Если не нашли стандартным способом, попробуем через pip show
+    import subprocess
+    result = subprocess.run(['pip', 'show', '-f', 'keras-vggface'], 
+                           capture_output=True, text=True)
+    for line in result.stdout.split('\n'):
+        if line.startswith('Location:'):
+            base_dir = line.split(': ')[1]
+            utils_path = os.path.join(base_dir, 'keras_vggface', 'utils.py')
+            break
+
+if utils_path is None:
+    print("❌ Не удалось найти файл keras_vggface/utils.py")
+else:
+    print(f"✅ Найден файл: {utils_path}")
+    
+    # 2. Читаем и исправляем файл
+    with open(utils_path, 'r') as file:
+        content = file.read()
+    
+    # 3. Заменяем проблемную строку (возможные варианты)
+    new_content = content.replace(
+        "from tf_keras.utils.data_utils import get_file",
+        "from tf_keras.utils import get_file  # Исправлено"
+    ).replace(
+        "from keras.utils.data_utils import get_file", 
+        "from tf_keras.utils import get_file  # Исправлено"
+    )
+    
+    # 4. Сохраняем исправленный файл
+    if content != new_content:
+        with open(utils_path, 'w') as file:
+            file.write(new_content)
+        print("✅ Файл utils.py успешно исправлен!")
+    else:
+        print("⚠️ Строка для исправления не найдена. Проверим содержимое...")
+        # Покажем первые 20 строк файла
+        lines = content.split('\n')
+        for i, line in enumerate(lines[:20]):
+            if 'get_file' in line or 'data_utils' in line:
+                print(f"   Строка {i+1}: {line}")
+
+
+
+
