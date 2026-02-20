@@ -1,0 +1,9 @@
+tail_detection_app/
+├── models/
+│   └── tail_model_20260220_1348.pt          
+├── src/
+│   └── predictor.py                          
+├── app.py                                     
+├── requirements.txt                         
+├── README.md                                 
+└── examples/
